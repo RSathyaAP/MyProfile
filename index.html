@@ -227,42 +227,71 @@
     </section>
 
 <!-- Lightbox -->
-<div id="lightbox" class="hidden fixed inset-0 bg-black/90 flex items-center justify-center">
-    <img id="lightbox-img" class="max-h-[80%] rounded-lg">
+<div id="lightbox" class="hidden fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+    <img id="lightbox-img" class="max-h-[80%] max-w-[90%] rounded-lg shadow-2xl">
 </div>
-    <section class="py-20 px-6">
+
+<section class="py-20 px-6">
     <h2 class="text-4xl glow text-center mb-10">Certifications</h2>
 
     <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- Card 1 -->
         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>IIM Kozhikode<img src="certificate/1.webp" class="gallery cursor-pointer rounded-lg"></h3>
+            <img src="certificate/1.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="IIM Kozhikode Certificate">
+            <h3 class="text-white font-bold">IIM Kozhikode</h3>
             <p class="text-sm text-slate-400">Data Science & AI</p>
         </div>
 
+        <!-- Card 2 -->
         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>DeepLearning.AI<img src="certificate/2.webp" class="gallery cursor-pointer rounded-lg"></h3>
+            <img src="certificate/2.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="DeepLearning AI Certificate">
+            <h3 class="text-white font-bold">DeepLearning.AI</h3>
             <p class="text-sm text-slate-400">MLOps</p>
         </div>
-         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>Full Stack Development<img src="certificate/3.webp" class="gallery cursor-pointer rounded-lg"></h3>
-            <p class="text-sm text-slate-400">MLOps</p>
-        </div>
+
+        <!-- Card 3 -->
         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>Digital Marketing<img src="certificate/4.webp" class="gallery cursor-pointer rounded-lg"></h3>
+            <img src="certificate/3.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="Full Stack Certificate">
+            <h3 class="text-white font-bold">Full Stack Development</h3>
             <p class="text-sm text-slate-400">MLOps</p>
         </div>
+
+        <!-- Card 4 -->
         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>React JS<img src="certificate/5.webp" class="gallery cursor-pointer rounded-lg"></h3>
+            <img src="certificate/4.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="Digital Marketing Certificate">
+            <h3 class="text-white font-bold">Digital Marketing</h3>
             <p class="text-sm text-slate-400">MLOps</p>
         </div>
-         <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
-            <h3>Pinterest Marketing<img src="certificate/6.webp" class="gallery cursor-pointer rounded-lg"></h3>
+
+        <!-- Card 5 -->
+        <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
+            <img src="certificate/5.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="React JS Certificate">
+            <h3 class="text-white font-bold">React JS</h3>
             <p class="text-sm text-slate-400">MLOps</p>
         </div>
-        
+
+        <!-- Card 6 -->
+        <div class="card bg-slate-800 p-6 rounded-xl cursor-pointer cert">
+            <img src="certificate/6.webp" 
+                 class="gallery w-full h-40 object-cover rounded-lg mb-4"
+                 alt="Pinterest Marketing Certificate">
+            <h3 class="text-white font-bold">Pinterest Marketing</h3>
+            <p class="text-sm text-slate-400">MLOps</p>
+        </div>
+
     </div>
-        
-    </section>
+</section>
 
 
     <footer class="py-12 border-t border-slate-100 text-center">
